@@ -1,13 +1,13 @@
 {
-  "originHash" : "3576f502f2feeedb9d9a943c835615bd20b679cbf873bafe7ec068dab034bb48",
+  "originHash" : "89f1d2426aacae7f56f71bc846753afaae79b4f5ade6fe016a61f7cd26b192eb",
   "pins" : [
     {
       "identity" : "hypergooey-mac-dist",
       "kind" : "remoteSourceControl",
-      "location" : "git@github.com:bszyman/hypergooey-mac-dist.git",
+      "location" : "https://github.com/bszyman/hypergooey-mac-dist.git",
       "state" : {
-        "revision" : "f047c3f70e99766276d7dcc8fd70ed99c0397c9a",
-        "version" : "1.1.0"
+        "revision" : "e1559265f553658d1bbdf9f5b4a89731b6b69366",
+        "version" : "1.2.0"
       }
     }
   ],
