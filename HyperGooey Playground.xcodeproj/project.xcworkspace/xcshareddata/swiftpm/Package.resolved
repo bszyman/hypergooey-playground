@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bszyman/hypergooey-mac-dist.git",
       "state" : {
-        "revision" : "3bd5b205d4595507858d8ffc076381789bc32955",
-        "version" : "1.2.1"
+        "revision" : "e02f777d17e2dd84cdbeed3cff4fa8b9a3d2d723",
+        "version" : "1.2.2"
       }
     }
   ],
