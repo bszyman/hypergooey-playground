@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A83DBFE82F75D9EC00958056 /* HyperGooey in Frameworks */ = {isa = PBXBuildFile; productRef = A83DBFE72F75D9EC00958056 /* HyperGooey */; };
+		A80C1E112F90CBF4008B33AF /* HyperGooey in Frameworks */ = {isa = PBXBuildFile; productRef = A80C1E102F90CBF4008B33AF /* HyperGooey */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83DBFE82F75D9EC00958056 /* HyperGooey in Frameworks */,
+				A80C1E112F90CBF4008B33AF /* HyperGooey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = "HyperGooey Playground";
 			packageProductDependencies = (
-				A83DBFE72F75D9EC00958056 /* HyperGooey */,
+				A80C1E102F90CBF4008B33AF /* HyperGooey */,
 			);
 			productName = "HyperGooey Playground";
 			productReference = A858C2DD2F597FEA00E9258B /* HyperGooey Playground.app */;
@@ -100,7 +100,7 @@
 			mainGroup = A858C2D42F597FEA00E9258B;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				A83DBFE62F75D9EC00958056 /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */,
+				A80C1E0F2F90CBF4008B33AF /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A858C2DE2F597FEA00E9258B /* Products */;
@@ -352,20 +352,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A83DBFE62F75D9EC00958056 /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */ = {
+		A80C1E0F2F90CBF4008B33AF /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/bszyman/hypergooey-mac-dist.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
+				minimumVersion = 1.2.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A83DBFE72F75D9EC00958056 /* HyperGooey */ = {
+		A80C1E102F90CBF4008B33AF /* HyperGooey */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A83DBFE62F75D9EC00958056 /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */;
+			package = A80C1E0F2F90CBF4008B33AF /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */;
 			productName = HyperGooey;
 		};
 /* End XCSwiftPackageProductDependency section */
