@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A80C1E112F90CBF4008B33AF /* HyperGooey in Frameworks */ = {isa = PBXBuildFile; productRef = A80C1E102F90CBF4008B33AF /* HyperGooey */; };
+		A8EC7BA42FCCBFED00BEABC0 /* HyperGooey in Frameworks */ = {isa = PBXBuildFile; productRef = A8EC7BA32FCCBFED00BEABC0 /* HyperGooey */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80C1E112F90CBF4008B33AF /* HyperGooey in Frameworks */,
+				A8EC7BA42FCCBFED00BEABC0 /* HyperGooey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = "HyperGooey Playground";
 			packageProductDependencies = (
-				A80C1E102F90CBF4008B33AF /* HyperGooey */,
+				A8EC7BA32FCCBFED00BEABC0 /* HyperGooey */,
 			);
 			productName = "HyperGooey Playground";
 			productReference = A858C2DD2F597FEA00E9258B /* HyperGooey Playground.app */;
@@ -100,7 +100,7 @@
 			mainGroup = A858C2D42F597FEA00E9258B;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				A80C1E0F2F90CBF4008B33AF /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */,
+				A8EC7BA22FCCBFED00BEABC0 /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A858C2DE2F597FEA00E9258B /* Products */;
@@ -273,6 +273,8 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperGooey Playground";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -312,6 +314,8 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperGooey Playground";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -352,20 +356,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A80C1E0F2F90CBF4008B33AF /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */ = {
+		A8EC7BA22FCCBFED00BEABC0 /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/bszyman/hypergooey-mac-dist.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.4;
+				minimumVersion = 2.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A80C1E102F90CBF4008B33AF /* HyperGooey */ = {
+		A8EC7BA32FCCBFED00BEABC0 /* HyperGooey */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A80C1E0F2F90CBF4008B33AF /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */;
+			package = A8EC7BA22FCCBFED00BEABC0 /* XCRemoteSwiftPackageReference "hypergooey-mac-dist" */;
 			productName = HyperGooey;
 		};
 /* End XCSwiftPackageProductDependency section */
